@@ -301,12 +301,12 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-          </ul>
+            <form action="https://getform.io/f/7524d987-a89c-4e2a-9d12-d8dfca315754" method="POST">
+              <input type="text" name="name">
+              <input type="email" name="email">
+              <input type="text" name="message">
+              <button type="submit">Send</button>
+            </form>
         </div>
       </section>
     </div>
