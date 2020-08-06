@@ -297,16 +297,42 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="Contact Me"
+        id="contact"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-            <form action="https://getform.io/f/7524d987-a89c-4e2a-9d12-d8dfca315754" method="POST">
-              <input type="text" name="name">
-              <input type="email" name="email">
-              <input type="text" name="message">
-              <button type="submit">Send</button>
-            </form>
+          <h2 className="mb-5">Contact Me</h2>
+          <form
+            action="https://getform.io/f/7524d987-a89c-4e2a-9d12-d8dfca315754"
+            method="POST"
+          >
+            <div className="p-3 col-md-6">
+              <h4>Name</h4>
+              <input type="text" name="name" required />
+            </div>
+            <div className="p-3 col-md-6">
+              <h4>Email Address</h4>
+              <input type="email" name="email" required />
+            </div>
+            <div className="w-50 p-3">
+              <h4>Message</h4>
+              <textarea
+                type="text"
+                name="message"
+                cols="40"
+                rows="5"
+                required
+              />
+              <br />
+              <small>
+                Form powered by GetForm, Messages go directly to my Email
+                Address
+              </small>
+              <br />
+              <button type="submit" class="btn btn-primary">
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </section>
     </div>
