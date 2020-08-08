@@ -24,7 +24,11 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             Graduate of Computing and Information Sciences, Aspiring Web and
-            Mobile Developer Former Radio Major/Journalist
+            Mobile Developer Former Radio Major/Journalist.
+          </p>
+          <p className="lead mb-5">
+            My Goal is to attain an intermediate level of experience in the
+            Technology Field within the next five years.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,49 +56,53 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Chief Invoicing Systems Administrator</h3>
               <div className="subheading mb-3">Ecotricity NZ</div>
-              <p>
-                - Initialising Monthly Invoicing Processes - Resolving Invoicing
-                and System Errors - Ordering IT Equipment and Maintaining
-                Workstations - Maintaining Ecotricity's Data Servers - Improving
-                efficiency for the Customer Service Team - Advising the
-                Metering, Customer Service, Sales and Reporting Teams -
-                Co-ordinating with the external support team to resolve
-                technical issues
-              </p>
+              <ul>
+                <li>Initialising Monthly Invoicing Processes</li>
+                <li>Resolving Invoicing and System Errors</li>
+                <li>Establishing and Maintaining Workstations</li>
+                <li>
+                  Maintaining Ecotricity's Data Servers through SQL Queries
+                </li>
+                <li>Improving efficiency for the Customer Service Team</li>
+                <li>
+                  Advising the Metering, Customer Service, Sales and Reporting
+                  Teams
+                </li>
+                <li>
+                  Co-ordinating with the external support team to resolve
+                  technical issues
+                </li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">August 2019 - August 2020</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Chief Complaints Resolution Manager</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <div className="subheading mb-3">Ecotricity NZ</div>
               <p>
-                - Co-ordinating with Utilities Disputes - Responding to client
-                complaints and reaching resolutions with customers. - Advising
-                Colleagues as to how to effectively resolve issues - Relaying
-                Feedback to change makers in Ecotricity.
+                <ul>
+                  <li>
+                    Responding to client complaints and reaching resolutions
+                    with customers.
+                  </li>
+                  <li>Co-ordinating with Utilities Disputes</li>
+                  <li>Establishing and Maintaining Workstations</li>
+                  <li>
+                    Maintaining Ecotricity's Data Servers through SQL Queries
+                  </li>
+                  <li>
+                    Relaying Customer Feedback to change makers in Ecotricity.
+                  </li>
+                  <li>Solving Customers' account problems.</li>
+                </ul>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Customer Support Specialist</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                - Guiding Customers through the sign up process. - Answering
-                Email and Phone Queries. - Solving Customers' account problems.
-                - Advising Customers with Credit Control Issues
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">February 2019 - August 2019</span>
             </div>
           </div>
 
@@ -106,11 +114,13 @@ const IndexPage = () => (
               <div className="subheading mb-3">
                 Screenies International Children's Film Festival
               </div>
-              <p>
-                - Composing and scheduling Social Media updates - Editing the
-                Screenies Wordpress Website - Conducting Outreach with Community
-                groups - Providing Technical Support - Collating Media Packages
-              </p>
+              <ul>
+                <li>Composing and scheduling Social Media updates</li>
+                <li>Editing the Screenies Wordpress Website</li>
+                <li>Conducting Outreach with Community</li>
+
+                <li>Providing Technical Support - Collating Media Packages</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">March 2018 - June 2018</span>
@@ -162,11 +172,11 @@ const IndexPage = () => (
               </li>
               <li>
                 <i className="fa-li fa fa-check"></i>
-                CCNA Level 1
+                CCNA 1: Introduction to Networks
               </li>
               <li>
                 <i className="fa-li fa fa-check"></i>
-                Device Repair and Maintenance
+                HubSpot Academy: Emailing Marketing
               </li>
             </ul>
           </div>
@@ -231,7 +241,7 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+          <div className="subheading mb-3">Skills</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -243,11 +253,15 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Project Management
+              Project Management: Agile Development &amp; Scrum
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Proficiency with Adobe Photoshop and Premier
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Recording and Editing Audio
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
