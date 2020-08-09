@@ -4,6 +4,9 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    description: `Nigel MR Resume`,
+    author: `Nigel MR`,
+    siteUrl: `https://nmr.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +22,7 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-preact`,
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],

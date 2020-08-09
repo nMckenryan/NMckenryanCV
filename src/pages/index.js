@@ -20,7 +20,9 @@ const IndexPage = () => (
           </h1>
           <div className="subheading mb-5">
             {config.address} ·
-            <a href={`mailto:${config.email}`}>{config.email}</a>
+            <a name="email" ref={`mailto:${config.email}`}>
+              {config.email}
+            </a>
           </div>
           <p className="lead mb-5">
             Graduate of Computing and Information Sciences, Aspiring Web and
@@ -34,7 +36,7 @@ const IndexPage = () => (
             {config.socialLinks.map(social => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url}>
+                <a name="social" key={url} href={url}>
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
