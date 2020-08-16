@@ -20,7 +20,7 @@ const IndexPage = () => (
           </h1>
           <div className="subheading mb-5">
             {config.address} ·
-            <a name="email" ref={`mailto:${config.email}`}>
+            <a name="email" href={`mailto:${config.email}`}>
               {config.email}
             </a>
           </div>

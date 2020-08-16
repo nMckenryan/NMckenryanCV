@@ -12,44 +12,28 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black: #000 !default;
+$black: #222831 !default; //Note: This is Near Black
 
-$blue: #007bff !default;
+$blue: #30475e !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
 $orange: #bd5d38 !default;
-$yellow: #ffc107 !default;
+$yellow: #f2a365 !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-// @function colorPick() {
-//     $color-group(
-//         $blue,
-//         $indigo,
-//         $purple,
-//         $pink,
-//         $red,
-//         $orange,
-//         $green,
-//         $teal,
-//         $cyan)
-//   @return nth(
-//     $color-group,
-//     random(length($color-group))
-//   );
-// }
-
 $primary: $blue !default;
-$secondary: $gray-600 !default;
+$secondary: $yellow !default;
+$tertiary: $orange !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
-$dark: $gray-800 !default;
+$dark: $yellow !default;
 
 // Page Variables
 

@@ -6,7 +6,7 @@ module.exports = {
     title: config.siteTitle,
     description: `Nigel MR Resume`,
     author: `Nigel MR`,
-    siteUrl: `https://nmr.com`,
+    siteUrl: `https://nmckenryan-resume.netlify.app/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

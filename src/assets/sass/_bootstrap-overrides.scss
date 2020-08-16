@@ -3,7 +3,7 @@
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $tertiary !important;
 }
 
 a {
@@ -13,4 +13,8 @@ a {
   &:active {
     color: darken($primary, 15%);
   }
+}
+
+.btn-primary {
+  background-color: $tertiary;
 }
