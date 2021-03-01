@@ -25,8 +25,7 @@ const IndexPage = () => (
             </a>
           </div>
           <p className="lead mb-5">
-            Graduate of Computing and Information Sciences, Aspiring Web and
-            Mobile Developer Former Radio Major/Journalist.
+            Web Developer and Tinkerer hailing from Auckland, New Zealand
           </p>
           <p className="lead mb-5">
             My Goal is to attain an intermediate level of experience in the
@@ -186,7 +185,7 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-
+      
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
@@ -235,9 +234,6 @@ const IndexPage = () => (
               <i className="fab fa-npm"></i>
             </li>
             <li className="list-inline-item">
-              <i class="fab fa-bitcoin"></i>
-            </li>
-            <li className="list-inline-item">
               <i class="fab fa-linux"></i>
             </li>
           </ul>
@@ -272,12 +268,15 @@ const IndexPage = () => (
               <i className="fa-li fa fa-check"></i>
               Device Repair and Maintenance
             </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              3D Printer Proficiency
+            </li>
           </ul>
         </div>
       </section>
 
       <hr className="m-0" />
-
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="interests"
@@ -285,25 +284,21 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from developing my Web Development skils, I enjoy learning
-            about History, Political Science and related subjects. In addition,
-            I've always had a deep appreciate for Comedy, Satire and
-            Fantasy/Science Fiction.
+            When I'm not developing my Web Development skils, I enjoy learning
+            about History, Comedy Writing, Weightlifting, learning new things and befriending animals. 
           </p>
           <p>
             As either a Player or a Game Master, I enjoy roleplaying games such
             as Dungeons and Dragons. I've also developed a proficiency for
             painting Miniatures for use in board games.
           </p>
-          <p className="mb-0">
-            I also enjoy writing in a Variety of styles including Media Reviews,
-            Comedy Skits, Radio Reports and Essays. My Articles have been
-            included in publications such as Debate and The SpeakEasy.
+          <p>
+            I also enjoy building Costumes and Props. I mostly work at building Replica Armour out of EVA Foam.
+            Since I recently acquired and upgraded a 3D Printer, I'm working on building an TIE Fighter Helmet, similar to the one seen in the Star Wars Films for roughly three seconds.
           </p>
           <p>
-            After short detour in Chinese and Russian.Recently, I've returned to
-            learning French, J'ai un vocabulaire pratique, mais je développe
-            toujours mes compétences d'écoute et de grammaire
+            Oh and I learned French accidentally in 2015. J'ai un vocabulaire pratique, mais je développe
+            toujours mes compétences d'écoute et de grammaire.
           </p>
         </div>
       </section>

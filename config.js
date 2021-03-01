@@ -25,5 +25,5 @@ module.exports = {
   ],
   email: 'n.mckenryan@gmail.com',
   phone: 'Inquire for my Phone Number',
-  address: 'Auckland Central, New Zealand',
+  address: 'Melbourne, Victoria',
 };
