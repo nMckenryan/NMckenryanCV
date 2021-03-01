@@ -77,7 +77,7 @@ const IndexPage = () => (
               </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2019 - August 2020</span>
+              <span className="text-primary">August 2019 - October 2020</span>
             </div>
           </div>
 
@@ -146,7 +146,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">
                 Graduate Diploma of Computing and Information Sciences
               </div>
-              <div>Computer Science - Web Development Track</div>
+              <div>Computer Science - Software Engineering/Web Development Track</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">February 2017 - July 2018</span>
@@ -157,7 +157,7 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Auckland University of Technlogy</h3>
               <div className="subheading mb-3">Bachelor of Communications</div>
-              <div>Radio Major</div>
+              <div>Radio/Journalism Major</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">March 2012 - November 2014</span>
@@ -228,7 +228,6 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i class="fab fa-java"></i>
             </li>
-
             <li className="list-inline-item">
               <i class="fab fa-android"></i>
             </li>
