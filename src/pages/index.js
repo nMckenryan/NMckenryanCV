@@ -25,7 +25,8 @@ const IndexPage = () => (
             </a>
           </div>
           <p className="lead mb-5">
-            Web Developer and Tinkerer hailing from Auckland, New Zealand
+            Web Developer, Prop Builder and Tinkerer hailing from Auckland, New
+            Zealand. Currently based in Melbourne, Victoria.
           </p>
           <p className="lead mb-5">
             My Goal is to attain an intermediate level of experience in the
@@ -46,6 +47,7 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
+      {/* EXPERIENCE */}
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
         id="experience"
@@ -53,6 +55,30 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
 
+          {/* WEC ADMIN */}
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Junior Web Developer</h3>
+              <div className="subheading mb-3">WEC Administration</div>
+              <ul>
+                <li>Maintaining and updating the websites of WEC’s Brands</li>
+                <li>
+                  Co-ordinating with WEC Stakeholders to scope project
+                  requirements
+                </li>
+                <li>
+                  Building Frontend Solutions through Wordpress with Vue.JS and
+                  Tailwind.{' '}
+                </li>
+                <li>Resolving compliance errors and fixing software bugs</li>
+              </ul>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">April 2021 - June 2021</span>
+            </div>
+          </div>
+
+          {/* ECOTRICITY INVOICING */}
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Chief Invoicing Systems Administrator</h3>
@@ -80,6 +106,7 @@ const IndexPage = () => (
             </div>
           </div>
 
+          {/* COMPLAINTS ECOTRICITY */}
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Chief Complaints Resolution Manager</h3>
@@ -107,6 +134,7 @@ const IndexPage = () => (
             </div>
           </div>
 
+          {/* MARKETING */}
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">
@@ -131,7 +159,7 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-
+      {/* EDUCATION */}
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
@@ -145,7 +173,9 @@ const IndexPage = () => (
               <div className="subheading mb-3">
                 Graduate Diploma of Computing and Information Sciences
               </div>
-              <div>Computer Science - Software Engineering/Web Development Track</div>
+              <div>
+                Computer Science - Software Engineering/Web Development Track
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">February 2017 - July 2018</span>
@@ -185,7 +215,44 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-      
+      {/* PROJECTS */}
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="projects"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Projects</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">FIRST PROJ</h3>
+              <div className="subheading mb-3">
+                Graduate Diploma of Computing and Information Sciences
+              </div>
+              <div>
+                Computer Science - Software Engineering/Web Development Track
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">February 2017 - July 2018</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Auckland University of Technlogy</h3>
+              <div className="subheading mb-3">Bachelor of Communications</div>
+              <div>Radio/Journalism Major</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">March 2012 - November 2014</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr className="m-0" />
+      {/* SKILLS */}
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
@@ -285,7 +352,8 @@ const IndexPage = () => (
           <h2 className="mb-5">Interests</h2>
           <p>
             When I'm not developing my Web Development skils, I enjoy learning
-            about History, Comedy Writing, Weightlifting, learning new things and befriending animals. 
+            about History, Comedy Writing, Weightlifting, learning new things
+            and befriending animals.
           </p>
           <p>
             As either a Player or a Game Master, I enjoy roleplaying games such
@@ -293,12 +361,16 @@ const IndexPage = () => (
             painting Miniatures for use in board games.
           </p>
           <p>
-            I also enjoy building Costumes and Props. I mostly work at building Replica Armour out of EVA Foam.
-            Since I recently acquired and upgraded a 3D Printer, I'm working on building an TIE Fighter Helmet, similar to the one seen in the Star Wars Films for roughly three seconds.
+            I also enjoy building Costumes and Props. I mostly work at building
+            Replica Armour out of EVA Foam. Since I recently acquired and
+            upgraded a 3D Printer, I'm working on building an TIE Fighter
+            Helmet, similar to the one seen in the Star Wars Films for roughly
+            three seconds.
           </p>
           <p>
-            Oh and I learned French accidentally in 2015. J'ai un vocabulaire pratique, mais je développe
-            toujours mes compétences d'écoute et de grammaire.
+            Oh and I learned French accidentally in 2015. J'ai un vocabulaire
+            pratique, mais je développe toujours mes compétences d'écoute et de
+            grammaire.
           </p>
         </div>
       </section>

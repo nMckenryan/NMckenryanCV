@@ -13,6 +13,7 @@ export class Sidebar extends Component {
         { content: 'About', href: 'about' },
         { content: 'Experience', href: 'experience' },
         { content: 'Education', href: 'education' },
+        { content: 'Projects', href: 'projects' },
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
         { content: 'Contact Me', href: 'contact' },
