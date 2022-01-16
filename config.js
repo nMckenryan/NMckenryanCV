@@ -21,8 +21,25 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/nmckenryan/',
+    }
+
+
+
+  ],
+
+  projectLinks: [
+    {
+      icon: 'fa-github',
+      name: 'Dungeon Tracker',
+      url: 'https://github.com/nMckenryan/rpgtrackerv2',
+    },
+    {
+      icon: 'fa-duotone',
+      name: 'Dungeon Tracker Live',
+      url: 'https://rpg-tracker-zugah.mongodbstitch.com/',
     },
   ],
+
   email: 'n.mckenryan@gmail.com',
   phone: 'Inquire for my Phone Number',
   address: 'Melbourne, Victoria',
