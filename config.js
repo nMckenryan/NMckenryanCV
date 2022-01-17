@@ -27,16 +27,58 @@ module.exports = {
 
   ],
 
-  projectLinks: [
+  dungeonLinks: [
     {
       icon: 'fa-github',
-      name: 'Dungeon Tracker',
       url: 'https://github.com/nMckenryan/rpgtrackerv2',
     },
     {
-      icon: 'fa-duotone',
-      name: 'Dungeon Tracker Live',
+      icon: 'fas fa-link',
       url: 'https://rpg-tracker-zugah.mongodbstitch.com/',
+    },
+  ],
+
+  miniLinks: [
+    {
+      icon: 'fa-github',
+      url: 'https://github.com/nMckenryan/Mini-Scaler',
+    },
+    {
+      icon: 'fas fa-link',
+      url: 'https://master.d21pbj5c8w53kf.amplifyapp.com/',
+    },
+  ],
+
+  connectLinks: [
+    {
+      icon: 'fa-github',
+      url: 'https://github.com/nMckenryan/ConnectBush' 
+    },
+    {
+      icon: 'fas fa-link',
+      url: 'https://brave-mirzakhani-c08a17.netlify.app/ ',
+    },
+  ],
+
+  vivecLinks: [
+    {
+      icon: 'fa-github',
+      url: 'https://github.com/nMckenryan/Vivec-Dummy-Paragraph-API' 
+    },
+    {
+      icon: 'fas fa-link',
+      url: 'https://scrsnyygmf.execute-api.ap-southeast-2.amazonaws.com/api/sermons',
+    },
+  ],
+
+  peaceLinks: [
+    {
+      icon: 'fa-github',
+      url: 'https://github.com/nMckenryan/Reddit-Peacemaker' 
+    },
+    {
+      icon: 'fas fa-link',
+      url: 'https://chrome.google.com/webstore/detail/reddit-peacemaker/piopibnnjghpenhhegklpdgmccminaen?hl=en-GB&authuser=0',
     },
   ],
 

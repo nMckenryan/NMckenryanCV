@@ -169,7 +169,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Auckland University of Technlogy</h3>
+              <h3 className="mb-0">Auckland University of Technology</h3>
               <div className="subheading mb-3">
                 Graduate Diploma of Computing and Information Sciences
               </div>
@@ -184,7 +184,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Auckland University of Technlogy</h3>
+              <h3 className="mb-0">Auckland University of Technology</h3>
               <div className="subheading mb-3">Bachelor of Communications</div>
               <div>Radio/Journalism Major</div>
             </div>
@@ -224,7 +224,6 @@ const IndexPage = () => (
           <h2 className="mb-5">Projects</h2>
 
           {/* DUNGEON TRACKER */}
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Dungeon Tracker</h3>
               <div className="subheading mb-3">
@@ -232,26 +231,22 @@ const IndexPage = () => (
                 Tabletop RPG Campaigns
               </div>
               <div>React Bootstrap MongoDB Auth0</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">
-                website: https://rpg-tracker-zugah.mongodbstitch.com/ github:
-                https://github.com/nMckenryan/rpgtrackerv2
-              </span>
-            </div>
-            <div className="social-icons">
-              {config.projectLinks.map(social => {
-                const { icon, url } = social;
-                return (
-                  <a name="social" key={url} href={url}>
-                    <i className={`fab ${icon}`}></i>
-                  </a>
-                );
-              })}
-            </div>
+
+              
+
+              <div className="resume-date mb-5 mt-3 social-icons">
+                {config.dungeonLinks.map(social => {
+                  const { icon, url } = social;
+                  return (
+                    <a name="social" key={url} href={url}>
+                      <i className={`fab ${icon}`}></i>
+                    </a>
+                  );
+                })}
+              </div>
+
 
             {/* MINI SCALER */}
-            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="resume-content">
                 <h3 className="mb-0">Mini Height Scaler</h3>
                 <div className="subheading mb-3">
@@ -259,72 +254,86 @@ const IndexPage = () => (
                   (Supports 28mm, 32mm and 54mm Formats)
                 </div>
                 <div>vuejs vuetify aws</div>
+
+                <div className="resume-date mb-5 mt-3 social-icons">
+                {config.miniLinks.map(social => {
+                  const { icon, url } = social;
+                  return (
+                    <a name="social" key={url} href={url}>
+                      <i className={`fab ${icon}`}></i>
+                    </a>
+                  );
+                })}
               </div>
-              <div className="resume-date text-md-right">
-                <span className="text-primary">
-                  website: https://master.d21pbj5c8w53kf.amplifyapp.com/ github:
-                  https://github.com/nMckenryan/Mini-Scaler
-                </span>
-              </div>
+
             </div>
 
-            {/* PEACEMAKER */}
-            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            
+              {/* CONNECT BUSH */}
               <div className="resume-content">
+                  <h3 className="mb-0">ConnectBush</h3>
+                  <div className="subheading mb-3">
+                    A simple Linktree Clone built with View. Collates the offers
+                    of a Fictitious Company
+                  </div>
+                  <div>vuejs tailwind airtable</div>
+                  <div className="resume-date mb-5 mt-3 social-icons">
+                {config.connectLinks.map(social => {
+                  const { icon, url } = social;
+                  return (
+                    <a name="social" key={url} href={url}>
+                      <i className={`fab ${icon}`}></i>
+                    </a>
+                  );
+                })}
+              </div>
+                </div>
+
+
+
+
+              {/* Vivec API */}
+                <div className="resume-content">
+                  <h3 className="mb-0">Vivec Dummy Paragraph API</h3>
+                  <div className="subheading mb-3">
+                    A Laravel Based API that provides Dummy Data based on the 36
+                    Sermons of Vivec from Morrowind
+                  </div>
+                  <div>laravel bref php aws</div>
+                  <div className="resume-date mb-5 mt-3 social-icons">
+                {config.vivecLinks.map(social => {
+                  const { icon, url } = social;
+                  return (
+                    <a name="social" key={url} href={url}>
+                      <i className={`fab ${icon}`}></i>
+                    </a>
+                  );
+                })}
+              </div>
+
+
+            {/* PEACEMAKER */}
+            <div className="resume-content">
                 <h3 className="mb-0">Reddit Peacemaker</h3>
                 <div className="subheading mb-3">
                   A Google Chrome Extension that prevents users from getting in
                   pointless arguments with the denizens of Reddit
                 </div>
                 <div>javascript</div>
+                <div className="resume-date mb-5 mt-3 social-icons">
+                {config.peaceLinks.map(social => {
+                  const { icon, url } = social;
+                  return (
+                    <a name="social" key={url} href={url}>
+                      <i className={`fab ${icon}`}></i>
+                    </a>
+                  );
+                })}
               </div>
-              <div className="resume-date text-md-right">
-                <span className="text-primary">
-                  website:
-                  https://chrome.google.com/webstore/detail/reddit-peacemaker/piopibnnjghpenhhegklpdgmccminaen?hl=en-GB&authuser=0
-                  github: https://github.com/nMckenryan/Reddit-Peacemaker
-                </span>
               </div>
-            </div>
 
-            {/* CONNECT BUSH */}
-            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div className="resume-content">
-                <h3 className="mb-0">ConnectBush</h3>
-                <div className="subheading mb-3">
-                  A simple Linktree Clone built with View. Collates the offers
-                  of a Fictitious Company
-                </div>
-                <div>vuejs tailwind airtable</div>
-              </div>
-              <div className="resume-date text-md-right">
-                <span className="text-primary">
-                  website: https://brave-mirzakhani-c08a17.netlify.app/ github:
-                  https://github.com/nMckenryan/ConnectBush
-                </span>
-              </div>
-            </div>
 
-            {/* Vivec API */}
-            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div className="resume-content">
-                <h3 className="mb-0">Vivec Dummy Paragraph API</h3>
-                <div className="subheading mb-3">
-                  A Laravel Based API that provides Dummy Data based on the 36
-                  Sermons of Vivec from Morrowind
-                </div>
-                <div>laravel bref php aws</div>
-              </div>
-              <div className="resume-date text-md-right">
-                <span className="text-primary">
-                  website:
-                  https://scrsnyygmf.execute-api.ap-southeast-2.amazonaws.com/api/sermons
-                  github:
-                  https://github.com/nMckenryan/Vivec-Dummy-Paragraph-API
-                </span>
-              </div>
             </div>
-
             {/* 
             VIVEC FRONTEND
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
